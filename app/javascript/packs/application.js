@@ -8,6 +8,8 @@
 //= require_tree . #require_treeより上にjquery、jquery_ujsを書くこと
 //= require activestorage
 
+require("jquery")
+
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
@@ -16,6 +18,7 @@ import "popper.js"
 import "bootstrap"
 
 import "../stylesheets/application"
+
 
 Rails.start()
 Turbolinks.start()
